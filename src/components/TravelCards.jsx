@@ -16,7 +16,7 @@ const TravelCards = ({ travelGuru }) => {
         <h4>{accomodation}</h4>
         <h4>{food} allowed</h4>
       </div>
-      <p className="paragraph">{description.slice(0, 300)}</p>
+      <p className="paragraph">{description.slice(0, 150)}</p>
       <h2 className="cost">{cost} &#36; </h2>
     </div>
   );
